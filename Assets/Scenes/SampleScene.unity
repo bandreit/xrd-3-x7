@@ -82731,6 +82731,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff00303e3214d0045a08503e88eb9d76, type: 3}
+--- !u!1 &433815162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3621981467535291326, guid: ddc38db09f9124241b4b4e9b2b9831eb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2009997004}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &497019326
 GameObject:
   m_ObjectHideFlags: 0
@@ -84756,6 +84762,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2009997004}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1669311227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433815162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18eba2381b7021645a93ac0fcad7a43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Triggered
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 485a4dd2-e221-42a6-b913-7263ba81323f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!1001 &2009997004
 PrefabInstance:
   m_ObjectHideFlags: 0
