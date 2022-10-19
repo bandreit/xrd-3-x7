@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
 namespace Unity.Template.VR
 {
-    public class SpiderWeb
+    public class SpiderWeb : MonoBehaviour
     {
         [SerializeField] private Transform shooterTip;
         [SerializeField] private Rigidbody player;
         [SerializeField] private GameObject webEnd;
         [SerializeField] private LineRenderer lineRenderer;
         [SerializeField] private ActionBasedController controller;
-
+        [SerializeField] private InputActionProperty triggered;
         
         [SerializeField] private float webStrenght = 8.5f;
         [SerializeField] private float webDamper = 7f;
@@ -46,11 +47,11 @@ namespace Unity.Template.VR
         private void HandleInput()
         {
             float isPressed = controller.activateAction.action.ReadValue<float>();
-            Debug.Log("HERE SHOULD BE PRESSED OR NOT PRESSED TRIGGER BUTTON :_))_");
 
             if (isPressed > 0 && !webShot)
             {
                 webShot = true;
+                Debug.Log("I am trying to start shooting web");
                 ShootWeb();
             }
             else if (isPressed == 0 & webShot)
@@ -64,8 +65,12 @@ namespace Unity.Template.VR
         private void ShootWeb()
         {
             RaycastHit hit;
+            Debug.Log("shooting before if");
+            Debug.Log(shooterTip.position + "SHooter position");
+            Debug.Log(shooterTip.forward + "Shootertip forward");
             if (Physics.Raycast(shooterTip.position, shooterTip.forward, out hit, maxDistance, webLayers))
             {
+                Debug.Log("I am inside shootWeb if");
                 webPoint = hit.point;
                 webEnd.transform.position = webPoint;
                 joint = player.gameObject.AddComponent<SpringJoint>();

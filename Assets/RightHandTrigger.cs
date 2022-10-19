@@ -15,8 +15,8 @@ public class RightHandTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float triggerValue = triggered.action.ReadValue<float>();
+       // float triggerValue = triggered.action.ReadValue<float>();
         
-        Debug.Log(triggerValue);
+        //Debug.Log(triggerValue);
     }
 }
