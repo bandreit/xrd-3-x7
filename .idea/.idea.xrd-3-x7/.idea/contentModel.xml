@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mirek\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mirek\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_xrd-3-x7.-292500885.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mirek\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\mirek\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\mirek\Documents\UnityProjects\XRD1-3\xrd-3-x7" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CapsuleColliderDriver.cs" t="Include" />
+        <e p="Geopipe" t="Include">
+          <e p="Pack02" t="Include">
+            <e p="NYBlock02" t="Include">
+              <e p="Models" t="Include">
+                <e p="metadata.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Oculus Hands Physics" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="HandPresence.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="XR Interaction Toolkit" t="Include">
+            <e p="2.2.0" t="Include">
+              <e p="Starter Assets" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ActionBasedControllerManager.cs" t="Include" />
+                  <e p="DynamicMoveProvider.cs" t="Include" />
+                </e>
+                <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="WebShooter.cs" t="Include" />
+        <e p="XRPlatformControllerSetup.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" t="IncludeRecursive" />
+      <e p="xrd-3-x7.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
